@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefectDatabase.Models", "MassDefectDatabase.Models\MassDefectDatabase.Models.csproj", "{FBDDC50C-3254-4589-BFBB-85C0ED54FD4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefectDatabase.Data", "MassDefectDatabase.Data\MassDefectDatabase.Data.csproj", "{D139DA3B-2559-4A1E-A89F-6336A1A7EBC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefectDatabase.ConsoleClient", "MassDefectDatabase.ConsoleClient\MassDefectDatabase.ConsoleClient.csproj", "{4CF7FC74-D44D-4375-AB0D-3B43FE23E371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportingDataFromJson", "ImportingDataFromJson\ImportingDataFromJson.csproj", "{998B14AA-4195-438D-97FC-27215DE70600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportingDataFromXML", "ImportingDataFromXML\ImportingDataFromXML.csproj", "{DF5F152D-C0F1-4242-B1A1-4F3A45AF1E0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonDataExporting", "DataExporting\JsonDataExporting.csproj", "{298F432E-BFD0-4226-8E5C-A51D58018D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDataExporting", "XmlDataExporting\XmlDataExporting.csproj", "{FA8177D2-A6D8-4540-B584-FB849965C431}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBDDC50C-3254-4589-BFBB-85C0ED54FD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDDC50C-3254-4589-BFBB-85C0ED54FD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDDC50C-3254-4589-BFBB-85C0ED54FD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDDC50C-3254-4589-BFBB-85C0ED54FD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D139DA3B-2559-4A1E-A89F-6336A1A7EBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D139DA3B-2559-4A1E-A89F-6336A1A7EBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D139DA3B-2559-4A1E-A89F-6336A1A7EBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D139DA3B-2559-4A1E-A89F-6336A1A7EBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF7FC74-D44D-4375-AB0D-3B43FE23E371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF7FC74-D44D-4375-AB0D-3B43FE23E371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF7FC74-D44D-4375-AB0D-3B43FE23E371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF7FC74-D44D-4375-AB0D-3B43FE23E371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{998B14AA-4195-438D-97FC-27215DE70600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{998B14AA-4195-438D-97FC-27215DE70600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{998B14AA-4195-438D-97FC-27215DE70600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{998B14AA-4195-438D-97FC-27215DE70600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5F152D-C0F1-4242-B1A1-4F3A45AF1E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5F152D-C0F1-4242-B1A1-4F3A45AF1E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5F152D-C0F1-4242-B1A1-4F3A45AF1E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5F152D-C0F1-4242-B1A1-4F3A45AF1E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298F432E-BFD0-4226-8E5C-A51D58018D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298F432E-BFD0-4226-8E5C-A51D58018D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298F432E-BFD0-4226-8E5C-A51D58018D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298F432E-BFD0-4226-8E5C-A51D58018D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8177D2-A6D8-4540-B584-FB849965C431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8177D2-A6D8-4540-B584-FB849965C431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8177D2-A6D8-4540-B584-FB849965C431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8177D2-A6D8-4540-B584-FB849965C431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
