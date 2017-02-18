@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photographers>
+  <photographer name="JaredPolin" primary-camera="Nikon D2X">
+    <lenses>
+      <len make="Nikon" focal-length="35" max-aperture="2.0" />
+      <len make="Tokina" focal-length="85" max-aperture="1.4" />
+    </lenses>
+  </photographer>
+  <photographer name="SamuelFosso" primary-camera="Sony A900">
+    <lenses />
+  </photographer>
+</photographers>
